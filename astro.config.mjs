@@ -46,6 +46,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Эссе',
+					collapsed: true,
 					autogenerate: { directory: 'essays' },
 				},
 				// {
@@ -54,6 +55,7 @@ export default defineConfig({
 				// },
 				{
 					label: 'Рецензии',
+					collapsed: true,
 					autogenerate: { directory: 'reviews' },
 				},
 				{
